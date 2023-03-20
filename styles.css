@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+#item-name-input{
+	margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+#total {
+    margin-top: 20px;
+}

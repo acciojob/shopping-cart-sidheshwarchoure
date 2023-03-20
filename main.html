@@ -8,7 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+   <h1>Dynamic Shopping Cart</h1>
+    <div></div><label for="item-name-input">Item Name:</label>
+    <input type="text" id="item-name-input" aria-label="Enter item name">
+</div>
+ <div> <label for="item-price-input">Price:</label>
+    <input type="number" id="item-price-input" aria-label="Enter item price">
+</div>
+  <button id="add">Add</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="cart">
+            <tr>
+                <td id="item">No items added yet</td>
+                <td id="price">$0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 id="total" aria-live="polite">Grand Total: $0</h3>
+
+	
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
